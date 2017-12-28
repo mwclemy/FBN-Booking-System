@@ -1,0 +1,103 @@
+#logo {
+	float: left;
+}
+
+#login, #logout, #login-button, #sign-up-link {
+	float: right;
+	padding: 10px 20px 10px 20px;
+	color: white;
+}
+
+body {
+	margin: 24px 30px 12px 30px;
+}
+
+a {
+	color: white;
+}
+
+.container-fluid {
+	background-color: #0000a0;
+	border-radius: 5px;
+}
+
+#header {
+	background-color: grey;
+	color: white;
+}
+
+#header, #nav, #contents, #footer {
+	margin: 18px 1px 0px 1px;
+	border-radius: 5px;
+}
+
+#footer {
+	color: white;
+}
+
+#home-body-row3 {
+	padding: 20px 15px 20px 40px;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #0000a0;
+}
+
+/*add flight*/
+#oneway, #roundtrip {
+	padding: 40px 180px 40px 40px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+}
+
+#tabbedpane {
+	padding: 20px 45px 20px 45px;
+}
+
+#add-user {
+	padding: 40px 180px 40px 40px;
+}
+
+/*Login*/
+/* The Modal (background) */
+.modal {
+	color: black;
+	z-index: 1; /* Sit on top */
+	display: none;
+	overflow: auto; /* Enable scroll if needed */
+	width: 30%;
+	margin: 60px auto 0;
+	border-radius: 7px;
+}
+
+/* Modal Content/Box */
+#formcontents {
+	background-color: #fff;
+	border: 1px solid #888;
+}
+
+/* Add Zoom Animation */
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+
+@
+-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)
+}
+
+to {
+	-webkit-transform: scale(1)
+}
+
+}
+@
+keyframes animatezoom {
+	from {transform: scale(0)
+}
+
+to {
+	transform: scale(1)
+}
+}
